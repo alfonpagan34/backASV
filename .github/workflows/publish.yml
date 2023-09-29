@@ -11,7 +11,7 @@ with:
 registry: backASV
 username: alfonpagan34
 password: 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
-  - name: Build the backASV Docker images
+  - name: Build the backASV Docker image
 run: |
   docker build . --tag ghcr.io/alfonpagan34/backASV:latest
   docker run ghcr.io/alfonpagan34/backASV:latest
